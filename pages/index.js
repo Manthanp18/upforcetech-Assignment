@@ -1,18 +1,9 @@
-import Head from "next/head";
-import Image from "next/image";
-import styles from "../styles/Home.module.css";
-import Form from "../components/Form";
 import FanSignup from "../components/FanSignup";
 import TalentSignup from "../components/TalentSignup";
 
 import { useState, useEffect, useRef } from "react";
 export default function Home() {
-  const ref = useRef("");
   const [open, setOpen] = useState(false);
-  // function chnageHandler() {
-  console.log(open);
-  //   setOpen(!open);
-  // }
 
   return (
     <div className=" min-h-screen flex justify-center items-center bg-black">

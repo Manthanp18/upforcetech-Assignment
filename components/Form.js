@@ -109,7 +109,6 @@ function Form({ type }) {
         <button
           type="submit"
           className=" bg-green py-3 px-14 rounded-full my-3"
-          //   onClick={handleSubmit}
         >
           Signup
         </button>
